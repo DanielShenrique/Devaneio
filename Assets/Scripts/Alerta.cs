@@ -9,8 +9,8 @@ public class Alerta : MonoBehaviour {
 
     public string[] DialogueStrings;
 
-    public float SecondsBetweenCharacters = 1f;
-    public float CharacterRateMultiplier = 0.5f;
+    public float SecondsBetweenCharacters;
+    public float CharacterRateMultiplier;
 
     public KeyCode DialogueInput = KeyCode.Z;
 
@@ -66,6 +66,8 @@ public class Alerta : MonoBehaviour {
             currentCharacterIndex++;
             if (currentCharacterIndex < stringLength)
             {
+				///yield return new WaitForSeconds(SecondsBetweenCharacters * CharacterRateMultiplier);
+				
                 if (Input.GetKey(DialogueInput))
                 {
                     yield return new WaitForSeconds(SecondsBetweenCharacters * CharacterRateMultiplier);

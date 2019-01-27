@@ -8,4 +8,8 @@ public class ButtonPlay : MonoBehaviour {
 	public void GoToTheMain(){
 	 SceneManager.LoadScene(1);
 	}
+	public void Quit()
+	{
+		Application.Quit();
+	}
 }
