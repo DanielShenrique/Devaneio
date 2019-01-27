@@ -39,9 +39,7 @@ public class Alerta : MonoBehaviour {
                 _isDialoguePlaying = true;
                 StartCoroutine(StartDialogue());
             }
-        }else{
-		}
-		
+        }
     }
     private IEnumerator StartDialogue()
     {

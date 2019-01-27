@@ -67,6 +67,6 @@ public class ActPlayer : MonoBehaviour {
 			cameraz.orthographicSize = z;
 			yield return null;	
 		}
-		SceneManager.LoadScene(1);
+		SceneManager.LoadScene(2);
 	}
 }

@@ -40,6 +40,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Tile 3
+    uniqueID: 321199981
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Tile 1
+    uniqueID: 4173525341
+    locked: 0
+  - name: Tile 2
+    uniqueID: 3540128971
+    locked: 0
+  - name: Player
+    uniqueID: 3556057751
     locked: 0
